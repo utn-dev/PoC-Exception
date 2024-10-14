@@ -3,7 +3,7 @@ package Model;
 import java.util.Objects;
 
 public class Student {
-    private String dni ;
+    private String dni;
     private String name;
     private String nacionality;
 

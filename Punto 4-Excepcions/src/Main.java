@@ -69,7 +69,7 @@ public class Main {
                         System.out.println(e.getMessage());
                     }
                     break;
-                case 3 :
+                case 3:
                     try {
                         System.out.println("Ingrese el DNI del estudiante a actualizar: ");
                         String dniToUpdate = teclado.nextLine();

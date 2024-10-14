@@ -21,15 +21,15 @@ public class ServiceStudent {
         System.out.println("Estudiante agregado correctamente");
     }
 
-    public void ShowAll(){
-        for (Student s : students){
+    public void ShowAll() {
+        for (Student s : students) {
             System.out.println(s);
         }
     }
 
     // Validar nombre
     public void validateName(String name) throws InvalidInputException {
-        if (name.isEmpty()){
+        if (name.isEmpty()) {
             throw new InvalidInputException("El nombre no puede estar vacio.");
         }
         if (containsNumbers(name)) {
@@ -65,7 +65,7 @@ public class ServiceStudent {
 
     // Validar nacionalidad
     public void validateNationality(String nationality) throws InvalidInputException {
-        if (nationality.isEmpty()){
+        if (nationality.isEmpty()) {
             throw new InvalidInputException("La nacionalidad no puede estar vacio.");
         }
         if (containsNumbers(nationality)) {
