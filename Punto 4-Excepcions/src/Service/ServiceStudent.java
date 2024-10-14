@@ -15,9 +15,8 @@ public class ServiceStudent {
         this.students = new ArrayList<>();
     }
 
-    // Método para agregar estudiante
+
     public void addStudent(Student student) {
-        // Lógica para agregar al estudiante
         students.add(student);
         System.out.println("Estudiante agregado correctamente");
     }
